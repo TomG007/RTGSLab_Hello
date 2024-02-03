@@ -1,8 +1,9 @@
 name: Deploy python-http-function
 
-on: push
-    branches:
-        - main
+on: 
+    push:
+        branches:
+            - main
 
 jobs:
   job_id:
