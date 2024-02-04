@@ -44,5 +44,5 @@ def hello_http(request):
         name = request_args["name"]
     else:
         name = "World"
-    return f"Hello {escape(name)}! Have a great day!"
+    return f"Hello {escape(name)}!!!"
 
