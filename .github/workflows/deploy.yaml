@@ -1,4 +1,4 @@
-name: Deploy python-http-function
+name: Deploy  python-http-function
 
 on: 
     push:
