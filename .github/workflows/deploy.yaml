@@ -27,11 +27,11 @@ jobs:
       with:
         name: 'hello_http'
         runtime: 'python312'
-        entry-point: 'hello_http'
         region: 'us-central1'
         source_dir: './src'
         project_id: 'folkloric-clock-412522'
-        event-trigger-type: 'trigger-http'
+#        entry-point: 'hello_http'
+#        event-trigger-type: 'trigger-http'
         
 
     # Example of using the output
