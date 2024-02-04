@@ -25,7 +25,7 @@ jobs:
     - id: 'deploy'
       uses: 'google-github-actions/deploy-cloud-functions@v2'
       with:
-        name: 'python-http-function-git'
+        name: 'python-http-function'
         runtime: 'python312'
         entry-point: 'hello_http'
         region: 'us-central1'
@@ -36,4 +36,4 @@ jobs:
 
     # Example of using the output
     - id: 'test'
-      run: 'curl "${{ steps.deploy.outputs.url }}"'
+      run: 'curl "${{ steps.deploy.outputs.url }}"' 
